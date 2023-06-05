@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "if": "nodemon ./js/06-if.js",
     "aray": "nodemon ./js/05-aray.js",
     "boolean": "nodemon ./js/04-boolean.js",
     "strings": "nodemon ./js/03-strings.js",
