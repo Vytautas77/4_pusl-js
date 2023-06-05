@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "for": "nodemon ./js/08-for.js",
     "switch": "nodemon ./js/07-switch.js",
     "if": "nodemon ./js/06-if.js",
     "aray": "nodemon ./js/05-aray.js",
