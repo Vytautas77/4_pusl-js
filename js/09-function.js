@@ -41,3 +41,26 @@ console.log('Petras:', average(petras), petras);
 console.log('Maryte:', average(maryte), maryte);
 console.log('Jonas:', average(jonas), jonas);
 console.log('Ona:', average(ona), ona);
+
+console.log ('~~~~~~~ TypeOf ~~~~~~~~~~~~');
+
+        function skirtumas (a, b){
+            //jei a yra ne skaicius
+            if (typeof a !== "number"){
+                  // grazinti klaida
+                    return 'Klaida: pirmas parametras ne skaicius';
+            }
+            // jeigu b yra neskaicius
+            if (typeof b !== 'number'){
+            // grazinti klaida
+                return 'Klaida: antras narys ne skaicius!';
+            }
+            return a-b;
+        }
+    console.log (skirtumas (7, 5));
+    console.log (skirtumas (17, 5));
+    console.log (skirtumas (-17, 5));
+    console.log (skirtumas (true, 5));
+    console.log (skirtumas (7, false));
+    console.log (skirtumas (7, 'labas'));
+    console.log (skirtumas ('ezys', 5));
