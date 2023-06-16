@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "numSize": "nodemon ./js/14-numSize.js",
     "beliekaninis": "nodemon ./js/13-beliekaninis.js",
     "reversString": "nodemon ./js/12-reversString.js",
     "rangeSum": "nodemon ./js/11-rangeSum.js",
