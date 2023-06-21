@@ -57,3 +57,25 @@ const carsInfo = `Parduodu ${car.brand} ${car.model} (${car.color}) uz ${car.pri
 console.log(carsInfo);
 //const kaipTauSekasi = 'kaip tau sekasi';
 console.log(car['kaip tau sekasi']);
+console.clear();
+console.log('~~~~~~ Masyvinis variantas~~~~~');
+const students = [
+    {
+        vardas: 'Petras',
+        marks: [10, 2, 8, 4, 6],
+    },
+    {
+        vardas: 'Maryte',
+        marks: [2, 4, 6, 8, 10, 2, 4, 8],
+    },
+    {
+        vardas: 'Jonas',
+        marks: [9, 8, 7],
+    }
+];
+console.log (students[0]);
+console.log (students[0]['vardas']);
+console.log (students[0].vardas);
+console.log (students[2].vardas);
+console.log (students[1].marks);
+console.log (students[1].marks[3]);
