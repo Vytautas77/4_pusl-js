@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "object": "nodemon ./js/17-object.js",
     "nthLeter": "nodemon ./js/16-nthLeter.js",
     "biggestNum": "nodemon ./js/15-biggestNum.js",
     "numSize": "nodemon ./js/14-numSize.js",
