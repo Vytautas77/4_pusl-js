@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "StrimgMetods": "nodemon ./js/18-StrimgMetods.js",
     "object": "nodemon ./js/17-object.js",
     "nthLeter": "nodemon ./js/16-nthLeter.js",
     "biggestNum": "nodemon ./js/15-biggestNum.js",
